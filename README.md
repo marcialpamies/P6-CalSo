@@ -17,7 +17,7 @@ Por ello, el equipo de formandera.com está diseñando un módulo de Admisiones 
 En este contexto, la práctica consistirá en desarrollar las dos piezas básicas del módulo de admisiones:
 
 - un servicio de ordenación de inscripciones según criterios de prioridad, y
-- un servicio de selección de admitidos integrado con un repositorio externo.
+- el caso de uso asociado a la admisión de alumnos en convocatorias integrado con un repositorio externo.
 
 Ambas funcionalidades deben implementarse utilizando Desarrollo Guiado por Pruebas (TDD), trabajando en ramas separadas, utilizando stubs y/o mocks y
 respetando la estructura modular del proyecto según los principios de una arquitectura limpia.
