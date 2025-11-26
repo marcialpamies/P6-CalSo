@@ -222,8 +222,7 @@ El caso de uso coordina, no calcula. Por tanto debe probar:
      
       REFACTORi: Si procede, se añadia una modificación que mejore la estructura del código sin modificar la funcionalidad y 
 haciendo que los test sigan siendo verde (es posible que las factorizaciones afecten a los test).
-      Si se hace una refactorización, el desarrollador hará: `commit -m "REFACTORi - Se hace la refactorización ... `.
-
+Si se hace una refactorización, el desarrollador hará: `commit -m "REFACTORi - Se hace la refactorización ... `.
       Si se ha introducido una refactorización, dentro de la subsección "Iteración "+i del documentación (md) de la rama 
       "feature/ordenacion", debajo del apartado anterior crear un nuevo apartado con un título que siga la siguiente estructura: 
       "REFACTOR" + i + "(enlace COMMIT del REFACTORi)". 
