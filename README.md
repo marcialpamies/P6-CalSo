@@ -40,7 +40,7 @@ respetando la estructura modular del proyecto según los principios de una arqui
 ---
 ## Descripción general del proyecto
 
-Se deberñan incorporar dos funcionalidades relacionadas con el sistema de convocatorias de formandera.com:
+Se deberán incorporar dos funcionalidades relacionadas con el sistema de convocatorias de formandera.com:
 
 ### Funcionalidad A — Ordenación de Inscripciones
 El servicio para ordenar inscripciones devolverá una nueva lista con las incripciones ordenadas siguiendo los criterios de prioridad siguientes (el método de ordenación no debe modificar la lista original recibida como parámetro):
@@ -49,8 +49,7 @@ El servicio para ordenar inscripciones devolverá una nueva lista con las incrip
 3. Mayor antigüedad en la plataforma
 4. Menor ID (desempate final)
 
-Se desarrollará en la rama feature/ordenacion
-Se utilizan stubs en los tests.
+Se desarrollará en la rama `feature/ordenacion`
 
 ### Funcionalidad B — Caso de uso "Selección de Admitidos"
 
@@ -62,7 +61,7 @@ Dada una convocatoria, el caso de uso debe:
 4. Descontar crédito e incrementar cursos en temática.
 5. Lanzar excepción si ningún usuario es admisible.
 
-Se desarrolla en la rama feature/seleccion
+Se desarrolla en la rama `feature/seleccion`
 
 ---
 ## Organización del trabajo
@@ -210,7 +209,7 @@ El caso de uso coordina, no calcula. Por tanto debe probar:
 
       Dentro de la subsección "Iteración "+i del documentación (md) de la rama "feature/ordenacion"
       crear un apartado con un título que siga la siguiente estructura: "TEST" + i + "(enlace COMMIT - TEST" + i + ")".
-      Recuerda enlazar el commit donde se incorporó el TEST correspondiente. En el cuerpo del apartado incorpora el código del TESTi
+      Recuerda enlazar el commit donde se incorporó el TESTi correspondiente. En el cuerpo del apartado incorpora el código del TESTi
      
       DEVi: Escribir el código mínimo para pasar TESTi
       (Desarrollador de la rama hace: `commit -m "DEVi - Se añade el código ... que hace que TESTi pase a verder"`)
@@ -221,8 +220,8 @@ El caso de uso coordina, no calcula. Por tanto debe probar:
       Recuerda enlazar el commit donde se incorporó el DEV correspondiente.
       En el cuerpo del apartado incorpora el código mínimo que configura el DEVi
      
-      REFACTORi: Si procede, se añadia una modificación que mejore la estructura del código sin modificar la funcionalidad
-      y haciendo que los test sigan siendo verde (es posible que las factorizaciones afecten a los test).
+      REFACTORi: Si procede, se añadia una modificación que mejore la estructura del código sin modificar la funcionalidad y 
+haciendo que los test sigan siendo verde (es posible que las factorizaciones afecten a los test).
       Si se hace una refactorización, el desarrollador hará: `commit -m "REFACTORi - Se hace la refactorización ... `.
 
       Si se ha introducido una refactorización, dentro de la subsección "Iteración "+i del documentación (md) de la rama 
