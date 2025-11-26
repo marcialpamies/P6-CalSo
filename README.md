@@ -1,4 +1,4 @@
-# P5-CalSo. Introducción a TDD. Uso de mocks y stubs
+# P6-CalSo. Introducción a TDD. Uso de mocks y stubs
 ## Proyecto formandera.com — Módulo de Admisiones
 La plataforma formandera.com es un sistema de gestión integral para la formación continua de profesionales. En ella se publican convocatorias de cursos, cada una con un número variable de plazas, una temática concreta y un conjunto de usuarios interesados en inscribirse.
 A medida que la plataforma ha crecido y se ha extendido entre distintos colectivos profesionales, han aparecido nuevas necesidades relacionadas con la gestión justa, transparente y automatizada de estas inscripciones.
